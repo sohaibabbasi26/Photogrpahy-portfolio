@@ -1,0 +1,16 @@
+.gallContainer{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);  /* 8 equal-width columns */
+    grid-template-rows: repeat(2, auto);    /* 2 rows */
+    gap: 16px;
+}
+
+.gridItem {
+              /* Optional */
+
+    height: 125px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;                     /* Optional */
+}

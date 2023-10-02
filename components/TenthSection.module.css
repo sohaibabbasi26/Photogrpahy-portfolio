@@ -1,0 +1,25 @@
+.main{
+    background-color: rgb(68, 68, 68) ;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main button{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem 1.5rem;
+    background-color: #303030;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.main span{
+    font-weight: 700;
+    color: #fff;
+    margin-top: 2rem;
+}
+
